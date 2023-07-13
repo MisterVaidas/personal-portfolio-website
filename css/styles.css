@@ -44,6 +44,9 @@ header {
     padding: 20px;
     color: #4a4a4a;
     line-height: 1.6;
+   /* background-image: url('/images/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;*/
 }
 
 #home h1 {
@@ -60,7 +63,7 @@ header {
 }
 
 #home .profile-pic {
-    width: 150px;
+    width: 400px;
     border-radius: 50px;
     margin-right: 20px;
 }
@@ -75,36 +78,62 @@ header {
     flex: 1;
 }
 
-/*#future-work {
-    padding: 2em;
-    background-color: #f5f5f5;
+/* Blog Section */
+
+#blog {
+    align-items: start;
+    padding: 20px;
+    color: #4a4a4a;
+    line-height: 1.6;
 }
 
-#future-work .project {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2em;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-#future-work .project h3 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-}
-
-#future-work .project .future-project-img {
+#blog .blog-content {
     flex: 1;
-    max-width: 400px;
-    margin-right: 2em;
-    border-radius: 5px;
+    margin-right: 20px;
 }
 
-#future-work .project .project-details {
-    flex: 2;
-}*/
+#blog h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#blog p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#blog ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#blog ul li {
+    margin-bottom: 15px;
+}
+
+#blog ul li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#blog .cta-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#blog .cta-button:hover {
+    background-color: #0056b3;
+}
+
 
 
 #about {
@@ -271,6 +300,14 @@ footer {
     width: 40px;
     height: 40px;
 }
+
+section {
+    padding: 20px;
+    height: 100vh; 
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: auto; 
+}
+
 
 
 

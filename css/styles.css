@@ -9,10 +9,15 @@ body {
 
 
 header {
-    background-color: #939c89; 
-    color: #fff; 
+    background-color: #524e5f; 
+    /*color: #fff; */
     padding: 20px 0;
-    text-align: center; 
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 .navigation {
@@ -70,6 +75,38 @@ header {
     flex: 1;
 }
 
+/*#future-work {
+    padding: 2em;
+    background-color: #f5f5f5;
+}
+
+#future-work .project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#future-work .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#future-work .project .future-project-img {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 2em;
+    border-radius: 5px;
+}
+
+#future-work .project .project-details {
+    flex: 2;
+}*/
+
+
 #about {
     display: flex;
     align-items: start;
@@ -91,8 +128,8 @@ header {
 }
 
 #about .about-pic {
-    width: 150px;
-    border-radius: 50%;
+    width: 200px;
+    border-radius: 50px;
 }
 
 #about p {
@@ -179,10 +216,9 @@ header {
     text-decoration: underline;
 }
 
-/* Footer */
 
 footer {
-    background-color: #333;
+    background-color: #49535c;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -232,8 +268,8 @@ footer {
 /* Social media images */
 
 .footer-content .socials img {
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
 }
 
 
